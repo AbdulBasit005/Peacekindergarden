@@ -1,0 +1,186 @@
+.svg-hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.vs-wave-shape {
+  @media (min-width: $ml) {
+    margin-bottom: -40px;
+  }
+
+  @include sm {
+    overflow: hidden;
+    
+    svg {
+      height: 150px;
+    }
+  }
+
+
+  .svg {
+    width: 100%;
+  }
+
+  .wave-path {
+    fill: $secondary-color;
+  }
+
+  &.style2 {
+    .wave-path {
+      fill: $white-color;
+    }
+  }
+
+  &.style3 {
+    .wave-path {
+      fill: $smoke-color;
+    }
+  }
+}
+
+.shape-mockup-wrap {
+  position: relative;
+
+  .container-fluid,
+  .container {
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.shape-mockup {
+  position: absolute;
+  z-index: 1;
+}
+
+.image-scale-hover {
+  overflow: hidden;
+
+  img {
+    transition: all ease 0.4s;
+    transform: scale(1.001);
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.2);
+    }
+  }
+}
+
+
+.fa,
+.far,
+.fas,
+.fal {
+  &,
+  &:before {
+    font-family: $icon-font !important;
+  }
+}
+
+.vertical-line {
+  border-right: 1px solid rgba(#fff, 0.20);
+  height: 100%;
+}
+
+.z-index-step1 {
+  position: relative;
+  z-index: 4 !important;
+}
+
+.z-index-common {
+  position: relative;
+  z-index: 3;
+}
+
+.z-index-n1 {
+  z-index: -1;
+}
+
+
+.media-body {
+  flex: 1;
+}
+
+.badge {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+  text-align: center;
+  background-color: $theme-color;
+  color: $white-color;
+  padding: .35em .55em;
+  border-radius: 50%;
+}
+
+.mega-hover {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    transition: all 2s ease;
+    transform: scale(1.001);
+  }
+
+  &:after,
+  &:before {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    opacity: 1;
+    z-index: 3;
+    transform: rotate(5deg);
+  }
+
+  &:before {
+    top: -10%;
+    right: 51%;
+    bottom: -10%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  &:after {
+    top: 50%;
+    right: -10%;
+    bottom: 50%;
+    left: -10%;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  &:hover {
+    &:before {
+      left: 0;
+      right: 0;
+      opacity: 0;
+      transition: all 900ms linear;
+    }
+
+    &:after {
+      top: 0;
+      bottom: 0;
+      opacity: 0;
+      transition: all 900ms linear;
+    }
+
+    img {
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media (min-width: $hd) {
+  .d-hd-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1700px) {
+  .d-xxxl-block {
+    display: block !important;
+  }
+}

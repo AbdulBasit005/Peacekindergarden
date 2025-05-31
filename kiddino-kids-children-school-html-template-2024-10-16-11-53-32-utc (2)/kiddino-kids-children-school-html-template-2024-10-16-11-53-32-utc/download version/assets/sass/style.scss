@@ -1,0 +1,252 @@
+/*
+Template Name: Kiddino
+Template URL: https://html.vecurosoft.com/kiddino
+Description: Kiddino - Children School & Kindergarten HTML Template
+Author: Vecuro
+Author URI: https://themeforest.net/user/vecuro_themes
+Version: 1.0.0
+*/
+/*=================================
+    CSS Index Here
+==================================*/
+/*
+01. Theme Base
+    1.1. Mixin
+    1.2. Function
+    1.3. Variable
+    1.4. Typography
+    1.5. Extend
+    1.7. Wordpress Default
+02. Reset
+    2.1. Container
+    2.2. Grid
+    2.3. Input
+    2.4. Slick Slider
+    2.5. Mobile Menu
+03. Utilities
+    3.1. Preloader
+    3.2. Buttons
+    3.3. Titles
+    3.4. Common
+    3.6. Font
+    3.7. Background
+    3.8. Text Color
+    3.9. Overlay
+    3.10. Animation
+04. Template Style
+    4.1. Widget
+    4.2. Header
+    4.3. Footer
+    4.4. Breadcumb
+    4.5. Pagination
+    4.6. Blog
+    4.7. Comments
+    4.8. Hero Area
+    4.9. Error    
+    4.10. About
+    4.11. Simple Sections
+    4.12. Popup Side Menu
+    4.13. Popup Side Menu
+    4.14. Serive Area
+    4.15. Category
+    4.16. Forms
+    4.17. Classes
+    4.18. Accordion
+    4.19. Testimonial
+    4.20. Package
+    4.21. Call To Active
+    4.22. Schedule Area
+    4.23. Gallery
+    4.24. Event Area
+    4.25. Feature
+    4.26. Team
+    4.27. Wocommerce
+    4.28. Products
+    4.29. Cart
+    4.30. Checkout
+    4.31. Wishlist
+05. Spacing
+
+*/
+/*=================================
+    CSS Index End
+==================================*/
+
+/*=================================
+   01. Theme Base
+==================================*/
+/*------------------- 1.1. Mixin -------------------*/
+@import "base/mixin";
+
+/*------------------- 1.2. Function -------------------*/
+@import "base/function";
+
+/*------------------- 1.3. Variable-------------------*/
+@import "base/variable";
+
+/*------------------- 1.5. Typography -------------------*/
+@import "base/typography";
+
+/*------------------- 1.6. Extend -------------------*/
+@import "base/extend";
+
+/*------------------- 1.7. Wordpress Default -------------------*/
+// @import 'base/wpdefault';
+
+/*=================================
+    02. Reset
+==================================*/
+/*------------------- 2.1. Container -------------------*/
+@import "reset/container";
+
+/*------------------- 2.2. Grid -------------------*/
+@import "reset/grid";
+
+/*------------------- 2.3. Input -------------------*/
+@import "reset/input";
+
+/*------------------- 2.4. Slick Slider -------------------*/
+@import "reset/slick-slider";
+
+/*------------------- 2.5. Mobile Menu -------------------*/
+@import "reset/vsmenu";
+
+/*=================================
+    03. Utilities
+==================================*/
+/*------------------- 3.1. Preloader -------------------*/
+@import "utilities/preloader";
+
+/*------------------- 3.2. Buttons -------------------*/
+@import "utilities/btns";
+
+/*------------------- 3.3. Titles -------------------*/
+@import "utilities/titles";
+
+/*------------------- 3.4. Common -------------------*/
+@import "utilities/common";
+
+/*------------------- 3.6. Font -------------------*/
+@import "utilities/font";
+
+/*------------------- 3.7. Background -------------------*/
+@import "utilities/background";
+
+/*------------------- 3.8. Text Color -------------------*/
+@import "utilities/text-color";
+
+/*------------------- 3.9. Overlay -------------------*/
+@import "utilities/overlay";
+
+/*------------------- 3.10. Animation -------------------*/
+@import "utilities/animation";
+
+/*=================================
+    04. Template Style
+==================================*/
+/*------------------- 4.1. Widget  -------------------*/
+@import "template/widgets/widget-default-list";
+@import "template/widgets/widget-sidebar";
+@import "template/widgets/widget-footer";
+
+/*------------------- 4.2. Header  -------------------*/
+@import "template/headers/header";
+
+/*------------------- 4.3. Footer  -------------------*/
+@import "template/footers/footer";
+
+/*------------------- 4.4. Breadcumb  -------------------*/
+@import "template/breadcumb/breadcumb-v1";
+
+/*------------------- 4.5. Pagination  -------------------*/
+@import "template/sections/pagination-v1";
+
+/*------------------- 4.6. Blog  -------------------*/
+@import "template/sections/blog";
+
+/*------------------- 4.7. Comments  -------------------*/
+@import "template/sections/comments";
+
+/*------------------- 4.8. Hero Area  -------------------*/
+@import "template/sections/hero";
+
+/*------------------- 4.9. Error  -------------------*/
+@import "template/sections/error";
+
+/*------------------- 4.10. About  -------------------*/
+@import "template/sections/about";
+
+/*------------------- 4.11. Simple Sections  -------------------*/
+@import "template/sections/simple-sections";
+
+/*------------------- 4.12. Popup Side Menu  -------------------*/
+@import "template/sections/sidemenu-v1";
+
+/*------------------- 4.13. Popup Side Menu  -------------------*/
+@import "template/sections/popupsearch-v1";
+
+/*------------------- 4.14. Serive Area  -------------------*/
+@import "template/sections/service";
+
+/*------------------- 4.15. Category  -------------------*/
+@import "template/sections/category";
+
+/*------------------- 4.16. Forms  -------------------*/
+@import "template/sections/form";
+
+/*------------------- 4.17. Classes  -------------------*/
+@import "template/sections/class";
+
+/*------------------- 4.18. Accordion  -------------------*/
+@import "template/sections/accordion";
+
+/*------------------- 4.19. Testimonial  -------------------*/
+@import "template/sections/testimonial";
+
+/*------------------- 4.20. Package  -------------------*/
+@import "template/sections/package";
+
+/*------------------- 4.21. Call To Active  -------------------*/
+@import "template/sections/cta";
+
+/*------------------- 4.22. Schedule Area  -------------------*/
+@import "template/sections/schedule";
+
+/*------------------- 4.23. Gallery  -------------------*/
+@import "template/sections/gallery";
+
+/*------------------- 4.24. Event Area  -------------------*/
+@import "template/sections/event";
+
+/*------------------- 4.25. Feature  -------------------*/
+@import "template/sections/feature";
+
+/*------------------- 4.26. Team  -------------------*/
+@import "template/sections/team";
+
+/*------------------- 4.27. Wocommerce  -------------------*/
+@import "template/sections/woocommerce";
+
+/*------------------- 4.28. Products  -------------------*/
+@import "template/sections/products";
+
+/*------------------- 4.29. Cart  -------------------*/
+@import "template/sections/cart";
+
+/*------------------- 4.30. Checkout  -------------------*/
+@import "template/sections/checkout";
+
+/*------------------- 4.31. Wishlist  -------------------*/
+@import "template/sections/wishlist";
+
+/*=================================
+    05. Spacing
+==================================*/
+@import "spacing/spacing";
+
+/*=================================
+    05. Pages
+==================================*/
+@import "pages/home-6";
+@import "pages/home-7";
+@import "pages/home-8";

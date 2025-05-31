@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1300px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: calc(var(--main-container) + var(--container-gutters));
+    padding-left: calc(var(--container-gutters) / 2);
+    padding-right: calc(var(--container-gutters) / 2);
+  }
+}
+
+
+@media only screen and (max-width: 1600px) {
+  .container-fluid.px-0 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+    .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+}
+
+.container-style4{
+  max-width: 1320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

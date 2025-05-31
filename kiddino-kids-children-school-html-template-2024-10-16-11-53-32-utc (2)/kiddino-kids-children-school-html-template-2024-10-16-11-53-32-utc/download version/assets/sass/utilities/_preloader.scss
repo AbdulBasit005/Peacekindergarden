@@ -1,0 +1,94 @@
+.preloader {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: $body-bg;
+
+  .vs-btn {
+    padding: 15px 20px;
+    border-radius: 0;
+    font-size: 14px;
+
+    &:after,
+    &:before {
+      border-radius: 0;
+    }
+  }
+}
+
+.preloader-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 0;
+
+
+  img {
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+}
+
+.loader {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: $theme-color $theme-color transparent transparent;
+  box-sizing: border-box;
+  animation: rotationloader 1.5s linear infinite;
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid;
+    border-color: transparent transparent $secondary-color $secondary-color;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotationBackloader 0.7s linear infinite;
+    transform-origin: center center;
+  }
+  
+  &::before {
+    width: 94px;
+    height: 94px;
+    border-color: $theme-color $theme-color transparent transparent;
+    animation: rotationloader 2s linear infinite;
+  }
+}
+
+
+@keyframes rotationloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBackloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}

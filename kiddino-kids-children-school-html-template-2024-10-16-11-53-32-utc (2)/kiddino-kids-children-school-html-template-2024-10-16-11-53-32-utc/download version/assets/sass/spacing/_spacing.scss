@@ -1,0 +1,131 @@
+// Padding
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-1px {
+  padding-bottom: 1px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+// Margin 
+.mt-n1 {
+  margin-top: -.25rem;
+}
+
+.mt-n2 {
+  margin-top: -.5rem;
+}
+
+.mt-n3 {
+  margin-top: -1rem;
+}
+
+.mt-n4 {
+  margin-top: -1.5rem;
+}
+
+.mt-n5 {
+  margin-top: -3rem;
+}
+
+.mb-n1 {
+  margin-bottom: -.25rem;
+}
+
+.mb-n2 {
+  margin-bottom: -.5rem;
+}
+
+.mb-n3 {
+  margin-bottom: -1rem;
+}
+
+.mb-n4 {
+  margin-bottom: -1.5rem;
+}
+
+.mb-n5 {
+  margin-bottom: -3rem;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+
+// Section Space
+.space,
+.space-top {
+  padding-top: $space;
+}
+
+.space,
+.space-bottom {
+  padding-bottom: $space;
+}
+
+.space-extra,
+.space-extra-top {
+  padding-top: $space-extra;
+}
+
+.space-extra,
+.space-extra-bottom {
+  padding-bottom: $space-extra;
+}
+
+
+@include md {
+
+  .space,
+  .space-top {
+    padding-top: $space-mobile;
+  }
+
+  .space,
+  .space-bottom {
+    padding-bottom: $space-mobile;
+  }
+
+  .space-extra,
+  .space-extra-top {
+    padding-top: $space-mobile-extra;
+  }
+
+  .space-extra,
+  .space-extra-bottom {
+    padding-bottom: $space-mobile-extra;
+  }
+
+  .space-top-md-none {
+    padding-top: 0;
+  }
+}
+
+@include sm {
+  .pt-sm-none {
+    padding-top: 0;
+  }
+}
+
+
+.dots-spacing-top .slick-dots {
+    margin-bottom: 0;
+    margin-top: 50px;
+    @include md {
+      position: relative;
+      top:-40px;
+    }
+}

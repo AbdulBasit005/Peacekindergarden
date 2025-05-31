@@ -1,0 +1,51 @@
+@media (min-width: $sm) {
+  .row:not([class*="gx-"]) {
+    --bs-gutter-x: 30px;
+  }
+}
+
+.gy-gx {
+  --bs-gutter-y: var(--bs-gutter-x);
+}
+
+.gy-30 {
+  --bs-gutter-y: 30px;
+}
+
+.gx-10 {
+  --bs-gutter-x: 10px;
+}
+
+.gx-15 {
+  --bs-gutter-x: 15px;
+}
+
+@media (min-width: $xl) {
+  .gx-35 {
+    --bs-gutter-x: 35px;
+  }
+  
+  .gx-40 {
+    --bs-gutter-x: 40px;
+  }
+
+  .gx-50 {
+    --bs-gutter-x: 50px;
+  }
+
+  .gx-60 {
+    --bs-gutter-x: 60px;
+  }
+
+  .gx-70 {
+    --bs-gutter-x: 70px;
+  }
+
+  .gx-80 {
+    --bs-gutter-x: 80px;
+  }
+
+  .gx-100 {
+    --bs-gutter-x: 100px;
+  }
+}
